@@ -1,0 +1,30 @@
+.social-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #fff;
+    z-index: 100;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  i {
+    margin-right: 5px;
+  }
+  

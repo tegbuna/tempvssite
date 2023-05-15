@@ -1,0 +1,25 @@
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  

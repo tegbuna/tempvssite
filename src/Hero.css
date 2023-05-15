@@ -1,0 +1,33 @@
+.hero {
+  background: url('https://i.imgur.com/FH5ISx5.png') center center no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 6vw, 4rem);
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+.hero a {
+  background-color: #000;
+  color: #fff;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+}
